@@ -1,6 +1,6 @@
 const currentDate = new Date(); 
 console.log(currentDate); // реєструє поточну дату та час на консолі
-const targetDate = new Date('2025-04-29T10:43:45'); // Замінити цільовим 
+const targetDate = new Date('2025-05-29T10:43:45'); // Замінити цільовим 
 console.log(targetDate); // Перевірте цільову дату в консолі
 const difference = targetDate - currentDate; 
 console.log(difference); // Це зареєструє різницю в мілісекундах
